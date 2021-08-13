@@ -1,0 +1,142 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+.final
+{
+     color: lightgrey;
+     margin: 5px;
+
+}
+
+.block
+{
+     margin: 0 0 50px 0 ;
+}
+
+.orange
+{
+     color: orange;
+}
+
+.photo
+{
+     border-radius: 58%;
+     margin: 20px 0 20px 20px;
+     max-width: 100px;
+}
+
+.vl {
+  border-left: 4px solid lightgrey;
+  height: 130px;
+  float: left;
+  margin: 10px;
+}
+
+
+.quote
+{
+     float: left;
+     max-width: 250px ;
+     margin: 10px 0 10px 0;
+}
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+
+#container
+{
+     width: 1000px;
+     margin: 30px 70px 30px 70px;
+     padding: 10px;
+
+}
+
+#header
+{
+     margin: 0 0 30px 0;
+}
+
+#main
+{
+     background: white;
+     color: black;
+     font-family: 'Lato', sans-serif;
+     padding: 30px;
+     float: left;
+     width: 600px;
+
+}
+#footer
+{
+     margin:  30px 0 0 0;
+}
+
+#sidebar
+{
+     background: white;
+     width: 320px;
+     font-family: 'Lato', sans-serif;
+     float: left;
+     padding: 20px;
+     margin-left: 15px;
+}
+
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+body {
+ background: url('../images/notebook.png'); /* add a fallback color of #d6d6d6 */
+ color: #000000;
+ font-family: 'Lato', sans-serif;
+ line-height: 1.7; /* line-height is unit-less */
+ font-size: 100%;
+}
+
+img
+{
+     display: block;
+     margin: 0 0 10px 0;
+}
+h1,h6,h2
+{
+     margin: 0;
+     padding: 0;
+     border: 0;
+}
+
+hr{
+     color: lightgrey;
+     margin : 0;
+     width: 550px;
+     display: block;
+}
+p
+{
+     width: 550px;
+     display: inline;
+}
+br
+{
+     size: 2;
+}
